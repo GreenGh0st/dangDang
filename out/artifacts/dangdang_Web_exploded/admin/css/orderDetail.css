@@ -1,0 +1,90 @@
+ @charset "utf-8";
+/* CSS Document */           
+             *{
+				margin: 0;
+				padding: 0;
+			}
+			.main{
+			  border:1px solid #ededed;
+			  margin: 5px
+			}	
+			.title{
+				background: #FFB90F;
+				color: #fff;
+				font-family: arial;
+				font-size: 13px;
+				padding:5px;
+			}
+			.table1{
+				width: 95%;
+				margin-top:20px;
+				/* margin: 20px auto 0; */
+			}
+			.table2{
+				width: 100%;
+				margin: 0 ;
+				position: absolute;
+				top: 50px;
+				min-height: 100px;
+			}
+			tr{
+				width: 100%;
+			}
+			table .key,.key1{
+				width: 30%;
+				text-align: right;
+				color: #5a5a5a;
+				
+			}
+			table .key1{
+				height: 80px;
+			}
+			table  .value{
+				width: 70%;
+				text-align: left;
+				color: #5a5a5a;
+			}
+			.table2 td{
+				height: 30px;
+				text-align: center;
+				font-family: arial;
+				font-size: 13px;
+				border:1px solid #aaa;
+			}
+			.table2 tr{
+				height: 10px;
+				
+			}
+			.table2 th{
+				height: 30px;
+				line-height: 10px;
+				text-align: center;
+				padding-top: 0;
+				border-collapse:collapse;
+				border:1px solid #aaa;
+			}
+			.back{
+				width: 60px;
+				height: 30px;
+				border: none;
+				border-radius: 2px;
+				background: #FFB90F;
+				color: #FFF;
+				position: relative;
+				right: 0;
+				text-decoration:none;
+			}
+	
+			
+			.sub{
+			
+			}
+			.key2{
+				height: 200px;
+				line-height: 200px;
+				text-align: right;
+				color: #5a5a5a;
+			}
+			.tr2{
+				position: relative;
+			}

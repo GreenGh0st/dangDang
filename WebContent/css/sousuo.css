@@ -1,0 +1,348 @@
+.sousuo {
+    height: 39px;
+    width: 400px;
+    background-color: #ffffff;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    clear: both;
+    float: none;
+    font-size: 20px;
+    border-radius: 7px;
+}
+.sexDiv{
+    display: inline-block;
+    height: 38px;
+    font-family: arial;
+    font-size: 12px;
+    margin-left: 10px;
+    line-height: 38px;
+}
+.anniu {
+    color: #FFF;
+    background-color: #F30;
+    height: 40px;
+    width: 60px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    clear: both;
+    float: none;
+    position: relative;
+    top: 0px;
+    bottom: 20px;
+    margin-bottom: 7px;
+}
+
+.anniu:hover {
+    background-color: #4d4d4d;
+    color: #b3d7ff;
+    cursor: pointer;
+}
+
+.b {
+    color: #FFF;
+    background-color: #F30;
+    clear: both;
+    float: none;
+    height: 30px;
+    width: 30px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+
+.wenxue {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #FF3300;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    text-decoration: none;
+    height: 40px;
+    width: 150px;
+    line-height: normal;
+    font-size: 24px;
+}
+
+.wenxue:hover {
+    background-color: #FF9900;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.wenxue a:hover {
+    text-decoration: none;
+}
+
+.daohang {
+    color: #000;
+    text-decoration: none;
+    border-left-width: thin;
+    border-left-style: solid;
+    border-left-color: #666;
+    line-height: normal;
+    clear: both;
+    float: none;
+    height: 40px;
+    width: 103px;
+    font-size: 24px;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.daohang a:link {
+    font-family: "黑体";
+    line-height: normal;
+    color: #000;
+    text-decoration: none;
+    clear: both;
+    float: none;
+    height: 40px;
+    width: 103px;
+}
+
+.daohang:hover {
+    background-color: #FF9900;
+    transition: all 0.3s linear;
+}
+
+.daohang a:hover {
+    text-decoration: none;
+}
+
+.lingquanzhongxin {
+    background-color: #FFF;
+}
+
+.gwc {
+    font-family: "黑体";
+    line-height: normal;
+    color: #000;
+    text-decoration: none;
+    clear: both;
+    float: none;
+    height: 30px;
+    width: 100px;
+}
+
+.gwc a:link {
+    line-height: normal;
+    color: #000;
+    text-decoration: none;
+    clear: both;
+    float: none;
+    height: 30px;
+    width: 100px;
+}
+
+.gwc a:hover {
+    line-height: normal;
+    color: #F30;
+    text-decoration: none;
+    clear: both;
+    float: none;
+    height: 30px;
+    width: 100px;
+    transition: all 0.3s linear;
+}
+
+.denglu {
+    line-height: normal;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+}
+
+.denglu:hover {
+    background-color: #a8a8a8;
+    color: #b3d7ff;
+    cursor: pointer;
+}
+
+.denglu a:link {
+    line-height: normal;
+    color: #000;
+    text-decoration: none;
+}
+
+.denglu a:hover {
+    line-height: normal;
+    color: #F30;
+    text-decoration: none;
+}
+
+
+.gonggao {
+    /*border: 2px solid #5ad5ec;
+    font-family: "黑体";
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    background-color: #d4edda;*/
+
+    width: 200px;
+    height: 40px;
+    /*margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;*/
+    /*padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;*/
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    border: 3px solid #3a3838;
+    color: #252323;
+    transition: all 0.3s linear;
+}
+
+.gonggao:hover {
+    background-color: #4d4d4d;
+    color: #b3d7ff;
+    cursor: pointer;
+
+    /*transition: all 0.3s linear;
+    background-color: #5ad5ec;
+    cursor: pointer;*/
+}
+
+.banquan {
+    color: #000;
+    text-decoration: none;
+}
+
+.dl {
+    color: #000;
+    text-decoration: none;
+    background-color: #E93854;
+}
+
+.dlan {
+    line-height: normal;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #F00;
+    height: 35px;
+    width: 70px;
+    border: thin solid #FFF;
+    border-radius: 5px;
+}
+
+.dlan:hover {
+    background-color: #4d4d4d;
+    color: #b3d7ff;
+    cursor: pointer;
+}
+
+.dlwb {
+    line-height: normal;
+    color: #000;
+    text-decoration: none;
+    height: 35px;
+    width: 170px;
+    border-radius: 5px;
+}
+
+.xiangqing {
+    font-family: "黑体";
+    font-size: 36px;
+    color: #000;
+    text-decoration: none;
+}
+
+.goumai {
+    font-family: "黑体";
+    font-size: 18px;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #F00;
+    height: 40px;
+    width: 150px;
+}
+
+.pj {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    border: 2px solid #666;
+}
+
+.qupingjia {
+    line-height: normal;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #F00;
+    height: 40px;
+    width: 100px;
+}
+
+.jycg {
+    font-family: "黑体";
+    line-height: normal;
+    color: #F00;
+    text-decoration: none;
+    background-color: #CCC;
+}
+
+.gk {
+    margin-top: 2px;
+}
+
+.img {
+    width: auto;
+    height: auto;
+
+}
+
+.img:hover {
+    filter: alpha(Opacity=40);
+    -moz-opacity: 0.4;
+    opacity: 0.4;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.cat {
+    width: 180px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.3s linear;
+}
+
+.cat:hover {
+    background-color: #4d4d4d;
+    color: #b3d7ff;
+    cursor: pointer;
+}
+
+.guess {
+    width: 166px;
+    height: 130px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.guess:hover {
+    filter: alpha(Opacity=40);
+    -moz-opacity: 0.4;
+    opacity: 0.4;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}

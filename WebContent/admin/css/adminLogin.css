@@ -1,0 +1,288 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+i{
+	font-style: normal;
+}
+ul li {
+
+    list-style-image: none;
+    list-style-type: none;
+
+}
+body,div,td{
+	font-size: 12px;
+	font-family: "Î¢ÈíÑÅºÚ",arial,helvetica,sans-serif;
+	line-height: 1.4em;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input, textarea, select, button {
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 12px;
+    font-weight: inherit;
+    vertical-align: middle;
+}
+.header{
+	width: 1000px;
+	margin:80px auto 0;
+	overflow: hidden;
+	line-height: 90px;
+	font-size: 30px;
+	font-family: "Î¢ÈíÑÅºÚ";
+	text-align: center;
+}
+body{
+	background:url(../images/bg.jpg); 
+	   background-size: 100%;
+        background-repeat:no-repeat;
+}
+a{
+	text-decoration: none;
+	color: #222;
+}
+.login_main{
+	width: 1000px;
+	height: auto !important;
+	min-height: 500px;
+	background: transparent;
+	margin: 0 auto;
+}
+.login_main .login{
+	position: relative;
+	width: 400px;
+	background: #fff;
+	margin-top: 90px;
+	box-shadow: 0 0 5px #ececec;
+	border: 1px solid #ededed;
+	font-family: "microsoft yahei";
+	margin: 20px auto 0;
+}
+.login_main .login .login_tab{
+	height:50px;
+	line-height: 20px;
+	font-size: 16px;
+	overflow: hidden;
+	border-bottom: 1px solid #EEEEEE;
+}
+.login_main .login .login_tab span{
+	display: block;
+	color: #000;
+	font-size: 20px;
+	float: left;
+	position: relative;
+	top: 14px;
+	left: 10px;
+	height: 26px;
+}
+.login_main .login .login_tab a{
+	display: block;
+	float: right;
+	font-size: 14px;
+	color: #666666;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 12px;
+	margin-right: 10px;
+	border-radius: 3px;
+}
+.login_main .login .login_tab .icon{
+	position: relative;
+	top: 4px;
+	width: 19px;
+	height: 19px;
+	display: inline-block;
+	background: url(/img/login-icon.png)no-repeat;
+}
+.login_main .login .login_body .phone_ul{
+	width: 348px;
+	/*height: 400px;*/
+	margin: 0 auto;
+}
+.loginErrorBox{
+	height: 26px;
+	line-height: 26px;
+	margin: 6px 0;
+}
+.loginErrorBox .loginErro{
+	display: none;
+	position: relative;
+	height: 24px;
+	background: #FDEFEC;
+	border: 1px solid #FFB6A9;
+	color: #ff4422;
+	font-size: 0px;
+}
+.loginErrorBox .loginErro .erroIcon{
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	background: url(../../img/login-icon1.png)no-repeat;
+    padding-right: 11px;
+    position: relative;
+    left: 7px;
+    top: 3px;
+}
+.loginErrorBox .loginErro .erroTips {
+	position: absolute;
+    display: inline-block;
+    line-height: 24px;
+    font-size: 12px;
+}
+.loginPhone,.loginCode{
+	width: 346px;
+	height: 40px;
+	border: 1px solid #BDBDBD;
+	color: #515151;
+	position: relative;
+}
+.m-t14{
+	margin-top: 14px;
+}
+.loginPhone .phone_icon,.loginCode .code_icon{
+	width: 41px;
+	height: 40px;
+	float: left;
+	border-right: 1px solid #BDBDBD;
+	background: #f0f0f0;
+}
+.loginPhone .phone_icon .icon,.loginCode .code_icon .icon{
+	display: block;
+	width: 18px;
+	height: 18px;
+	margin-left: 12px;
+	position: relative;
+	top: 12px;
+}
+.loginPhone .phone_icon span{
+	background: url(../../img/login-icon2.png) no-repeat;
+}
+.loginCode .code_icon span{
+	background: url(../../img/login-icon4.png) no-repeat;
+}
+.loginPhone .phone_ipt{
+	width: 304px;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+.loginCode .code_ipt{
+	width: 174px;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 4px;
+}
+.loginPhone .phone_ipt input{
+	width: 250px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 8px;
+	float: left;
+	color: #000000;
+	border: 0 none;
+	font-size: 13px;
+}
+.loginCode .code_ipt input{
+	width: 164px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 5px;
+	float: left;
+	color: #000000;
+	border: 0 none;
+	font-size: 13px;
+}
+input{
+	outline: none;
+}
+.loginPhone .phone_ipt .closeIcon{
+	height: 24px;
+	width: 24px;
+	float: left;
+	position: relative;
+	top: 8px;
+	display: none;
+	background: url(/img/login-icon3.png) center no-repeat;
+	cursor: pointer;
+}
+.loginCode .verificationCode{
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+	color: #AE4242;
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 8px 0;
+	padding: 0 15px;
+	line-height: 22px;
+	border-left: 1px solid #CDCDCD;
+	font-size: 12px;
+}
+.btn_sub{
+	margin-top: 5px;
+}
+.btn_sub input{
+	background: #8DC63F;
+	margin-top: 20px;
+	border-radius: 4px;
+	border: none;
+	height: 39px;
+	width: 100%;
+	line-height: 39px;
+	text-align: center;
+	color: #FFF;
+	font-size: 16px;
+}
+.login_body li .pwlogin{
+	height: 18px;
+	padding-top: 16px;
+	padding-bottom: 21px;
+}
+.login_body li .pwlogin a{
+	height: 18px;
+	line-height: 18px;
+	color: #666;
+	float: right;
+	font-size: 16px;
+}
+.login_body li .pwlogin input{
+	height: 18px;
+	border: none;
+	line-height: 18px;
+	color: #666;
+	background: #FFFFFF;
+	font-size: 16px;
+}
+.footer{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 0px;
+}
+.footer span{
+	display: block;
+	font-size: 0;
+}
+.footer span,.footer p{
+	margin: 0 auto;
+	line-height: 26px;
+	text-align: center;
+}
+.footer p{
+	color: #222;
+	font-size: 16px;
+}
+.footer span a{
+	font-size: 16px;
+	border-right: 1px solid #222;
+	padding:0 10px;
+}
+.footer span .clear{
+	border-right: none;
+}
